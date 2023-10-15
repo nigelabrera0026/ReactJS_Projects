@@ -1,0 +1,10 @@
+/**
+ * @author Nigel Abrera
+ * @description Creating a static info site that would make you grasp the basics of React JS
+ * @date 10/14/2023
+ */
+
+ html, body {
+    margin: 0;
+    padding: 0;
+ }
