@@ -68,4 +68,29 @@ by creating and appending an h1 to our div#root (without using innerHTML).
 - append it as a child of the div#root
 */
 
-h1 = document.createElement("h1");
+// Note: it doesn't work when you have the type="text/babel" in script tag
+/*
+let h1 = document.createElement("h1");
+h1.textContent = "This is vanilla JS";
+h1.classList.add("header");
+let root = document.getElementById("root");
+root.appendChild(h1);
+*/
+
+/*
+Vid's answer
+
+const h1 = document.createElement("h1");
+h1.textContent = "This is an imperative way to program";
+h1.className = "header";
+document.getElementById("root").appendChild(h1);
+*/
+
+/* 
+We use react to be declarative since vanilla JS is an imperative way to code
+
+ReactDOM.render(<h1 className="header">Hello, React!</h1>, doocument.getElementById("root"))
+*/
+
+
+
