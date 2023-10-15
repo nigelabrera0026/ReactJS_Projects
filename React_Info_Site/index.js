@@ -125,4 +125,73 @@ ReactDOM.render(
     page,
     document.getElementById("root")
 )
+
+
+Challenge:
+
+Create a navbar in JSX:
+    - Use the semantic `nav` element as the parent wrapper
+    - Have an h1 element with the brand name of your "website"
+    - Insert an unordered list for the other nav elements
+        - Inside the `ul`, have three `li`s for "Pricing", "About", and "Contact"
+    - Don't worry about styling yet - it'll just be plain-looking HTML for now
+
+const nav = (
+    <nav>
+        <h1>My webby</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(
+    nav, document.getElementById("root")
+)
+
+Vid's answer
+
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(
+    navbar, document.getElementById("root"))
+)
+
+
+End of CDNs
+
+To use JSX
+import React from "react";
+import ReactDOM from "react-dom"
+
+Challenge: find out what happens if we try to append JSX 
+to our div#root using .append() instead of ReactDOM
+
+const page = (
+    <div>
+        <h1>My React webby</h1>
+        <h3>Reasons i use react</h3>
+        <ol>
+            <li>Composable</li>
+            <li>Declarative</li>
+        </ol>
+    </div>
+)
+
+document.getElementById("root").append(JSON.stringify(page));
+ReactDOM.render(
+    page, document.getElementById("root")
+)
 */
+
