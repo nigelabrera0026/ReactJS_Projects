@@ -57,7 +57,6 @@ ReactDOM.render(
     document.getElementById("root")
 )
 */
-
 /*
 Challenge - recreate the above line of code in vanilla JS
 by creating and appending an h1 to our div#root (without using innerHTML).
