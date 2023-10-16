@@ -5,3 +5,11 @@
 .nav-bar > ul > li {
     list-style: none;
 }
+
+.main_content > nav >{
+
+}
+
+.nav_icon {
+    width: 150px;
+}
