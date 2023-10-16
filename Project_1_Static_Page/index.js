@@ -59,3 +59,54 @@ function Page() {
 }
 ReactDOM.render(<Page />, document.getElementById("root"));
  */
+
+
+
+/*
+
+function Hello({greeting, name}) {
+    return (
+        <h2>
+            {greeting} {name}
+        </h2>
+    );
+}
+
+
+function App() {
+    return (
+        <>
+            <Hello name="Brian" greeting="Bonjour"/>
+            <Hello name="Nige" greeting="Kamusta"/>
+            <Hello name="Brian" greeting="Bonjour"/>
+        </>
+    )
+}
+
+function App() {
+    const name = ["Brian", "Frank", "Corgi"];
+    const helloComponents = name.map((name, i) => <Hello name={ name } /> );
+
+    return (
+        <>
+            {hellocComponents}
+        </>
+    );
+}
+
+
+function App() {
+    const name = ["Brian", "Frank", "Corgi"];
+
+    return (
+        <>
+            {name.map((name, i) => (
+                <Hello name={name} />
+            ))}
+        </>
+    );
+}
+
+*/
+
+
