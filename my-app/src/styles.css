@@ -1,0 +1,7 @@
+.nav-bar > ul {
+    display: flex;
+}
+
+.nav-bar > ul > li {
+    list-style: none;
+}
